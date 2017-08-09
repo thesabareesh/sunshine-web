@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 html, body {
     height: 100%;
 }
@@ -9,6 +16,17 @@ body {
     color: #3E3E3E;
     background: linear-gradient(150deg, #32bed0 0%, #ffffff 100%);
 }
+.network{
+    font-size: larger;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px;
+    position: relative;
+}
+.network .material-icons {
+    font-size: 44px;
+}
+
 .card {
     display: flex;
     justify-content: center;
@@ -20,3 +38,68 @@ body {
     background: rgba(0, 0, 0, 0.2);
     box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
 }
+.cityContainer {
+    width: 100%;
+    padding: 12px 15px;
+    height: 150px;
+    background: #ffffa5;
+}
+.currentMinMax{
+    position: relative;
+    display: inline-block;
+}
+.cityName {
+    position: relative;
+    font-size: 18px;
+    text-align: right;
+}
+
+.weatherTemp {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.tempAndCity {
+    text-align: right;
+}
+.tempAndCity p {
+    padding: 0;
+    margin: 0;
+}
+.weatherDesc {
+    text-align: right;
+    text-transform: capitalize;
+}
+
+.forecast {
+    height: 100px;
+    width: 100%;
+    background: #FFF;
+    text-align: center;
+    border-bottom-right-radius: 60px 5px;
+}
+.forecast .forecastCard {
+    position: relative;
+    display: inline-block;
+    margin: 2px;
+    width: 52px;
+    padding: 5px 8px;
+    color: #444;
+}
+
+.forecastCard p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.forecastCard .forecastIcons {
+    font-size: 25px;
+}
+.forecastMin {
+    color: #b3b3b3;
+}
+.currentMin {
+    color: #868580;
+}
+
