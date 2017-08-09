@@ -1,4 +1,4 @@
-# Sunshine
+# Sunshine  - http://sunshine.surge.sh/
 
 A simple Post-it®-styled weather forecast website.
 
@@ -33,7 +33,7 @@ Browser
 
 ## Authors
 
-* **Sabareesh Parvatahreddy**
+* **Sabareesh Parvathareddy**
 
 ## License
 
