@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+}
+body {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.5;
+    color: #3E3E3E;
+    background: linear-gradient(150deg, #32bed0 0%, #ffffff 100%);
+}
+.card {
+    display: flex;
+    justify-content: center;
+}
+.weatherCard {
+    flex: 0 1 240px;
+    height: 250px;
+    border-bottom-right-radius: 60px 5px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+}
